@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:ital,wght@0,300;0,500;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #6a3093, #a044ff);
+}
+
+.container{
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(53, 0, 78, 0.5);
+}
+
+input{
+    width: 330px;
+    border: none;
+    padding: 10px 10px;
+    background: transparent;
+    text-align: right;
+    box-shadow: 0px 3px 15px rgba(53, 0, 78, 0.5);
+    font-size: 40px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: white;
+    
+}
+
+input::placeholder{
+    color: white;
+}
+
+
+
+button{
+    border: none;
+    width:  60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    box-shadow: 0px 3px 15px rgba(53, 0, 78, 0.5);
+    cursor: pointer;
+}
+
+.equal-sign{
+    width: 150px;
+    background-color: #340257;
+    border-radius: 0;
+    
+}
+
+.operator{
+    background-color: black;
+    
+}
